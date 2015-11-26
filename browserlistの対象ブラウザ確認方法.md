@@ -1,14 +1,14 @@
 #browserlist で last N versionに何が含まれているか確認する方法
 
 ##code
-`cd PATH_TO_browserlist_DIRECTORY`
-で、node cli.jsする。
-`node cli.js  "last 4 versions"`
-`node cli.js  "last 3 versions"`
-`node cli.js  "last 2 versions"`
+`cd PATH_TO_browserlist_DIRECTORY`  
+で、node cli.jsする。  
+`node cli.js  "last 4 versions"`  
+`node cli.js  "last 3 versions"`  
+`node cli.js  "last 2 versions"`  
 
 ##2015/11/26時点のそれぞれの出力
-* **last 2 version**
+* **last 2 version**  
 chrome 46
 chrome 45
 edge 13
@@ -27,7 +27,7 @@ safari 9
 safari 8
 ***
 
-* **last 4 version**
+* **last 4 version**  
 chrome 46
 chrome 45
 chrome 44
@@ -58,7 +58,7 @@ safari 7.1
 safari 7
 ***
 
-* **`node cli.js  "last 2 version, safari 5, ie 8, ie 9, ff 17, opera 12.1, ios 6, android 4"`**
+* **`node cli.js  "last 2 version, safari 5, ie 8, ie 9, ff 17, opera 12.1, ios 6, android 4"`**  
 android 4
 chrome 46
 chrome 45
